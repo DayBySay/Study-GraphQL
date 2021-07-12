@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        Network.shared.apollo.fetch(query: UsersQuery()) { result in
+        Network.shared.apollo.fetch(query: UsersWithoutEmailQuery()) { result in
           switch result {
           case .success(let graphQLResult):
             print("Success! Result: \(graphQLResult)")

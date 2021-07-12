@@ -17,6 +17,7 @@
 		19D1A6612694235D00D8FBB0 /* Users.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 19D1A6602694235D00D8FBB0 /* Users.graphql */; };
 		19D1A6662694259500D8FBB0 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 19D1A6652694259500D8FBB0 /* schema.json */; };
 		19D1A6682694268800D8FBB0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D1A6672694268700D8FBB0 /* API.swift */; };
+		19D1A66A26942CE000D8FBB0 /* UsersWithoutEmail.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 19D1A66926942CE000D8FBB0 /* UsersWithoutEmail.graphql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		19D1A6602694235D00D8FBB0 /* Users.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Users.graphql; sourceTree = "<group>"; };
 		19D1A6652694259500D8FBB0 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		19D1A6672694268700D8FBB0 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		19D1A66926942CE000D8FBB0 /* UsersWithoutEmail.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = UsersWithoutEmail.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				19D1A65626941A0E00D8FBB0 /* Info.plist */,
 				19D1A6652694259500D8FBB0 /* schema.json */,
 				19D1A6602694235D00D8FBB0 /* Users.graphql */,
+				19D1A66926942CE000D8FBB0 /* UsersWithoutEmail.graphql */,
 			);
 			path = GraphQLDemo;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				19D1A65226941A0E00D8FBB0 /* Assets.xcassets in Resources */,
 				19D1A65026941A0C00D8FBB0 /* Main.storyboard in Resources */,
 				19D1A6612694235D00D8FBB0 /* Users.graphql in Resources */,
+				19D1A66A26942CE000D8FBB0 /* UsersWithoutEmail.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
